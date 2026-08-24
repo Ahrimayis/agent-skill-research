@@ -414,6 +414,16 @@ else. The loss of visible provenance is the central risk.
 | Pinned SkillSieve and our linter missed all five Codex-responsive description arms. | That every public scanner fails or that either tool is generally ineffective. |
 | AI reliance is increasing and generated political messages can persuade in controlled studies. | A real description-borne influence campaign or any demonstrated political outcome from our tests. |
 
+## Research artifacts
+
+The frozen fixtures, aggregate results, preregistrations, result reports,
+scanner-comparison runner, and exact release boundary are available in
+[Ahrimayis/agent-skill-research](https://github.com/Ahrimayis/agent-skill-research).
+Raw provider homes and the large Claude routing archive are not included; they
+require separate redaction and provenance review before any later release. The
+repository states explicitly where that lowers the independent-verification
+ceiling.
+
 ## What should change
 
 The engineering response is not “load every body.” That increases cost and does
