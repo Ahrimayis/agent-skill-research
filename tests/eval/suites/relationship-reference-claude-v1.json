@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "relationship-reference-claude-v1",
+  "kind": "fast",
+  "network_access": true,
+  "repetitions": 3,
+  "arms": [
+    {"id": "a0", "delivery_mode": "natural", "delivery_target": "reference-helper", "body": "../bodies/reference-a0.md"},
+    {"id": "a1", "delivery_mode": "natural", "delivery_target": "reference-helper", "body": "../bodies/reference-a1.md"},
+    {"id": "a2", "delivery_mode": "natural", "delivery_target": "reference-helper", "body": "../bodies/reference-a2.md"},
+    {"id": "a3", "delivery_mode": "natural", "delivery_target": "reference-helper", "body": "../bodies/reference-a3.md"},
+    {"id": "a4", "delivery_mode": "natural", "delivery_target": "reference-helper", "body": "../bodies/reference-a4.md"},
+    {"id": "a5", "delivery_mode": "natural", "delivery_target": "reference-helper", "body": "../bodies/reference-a5.md"},
+    {"id": "a6", "delivery_mode": "natural", "delivery_target": "reference-helper", "body": "../bodies/reference-a6.md"},
+    {"id": "a7", "delivery_mode": "natural", "delivery_target": "reference-helper", "body": "../bodies/reference-a7.md"},
+    {"id": "a8", "delivery_mode": "natural", "delivery_target": "reference-helper", "body": "../bodies/reference-a8.md"},
+    {"id": "a9", "delivery_mode": "natural", "delivery_target": "reference-helper", "body": "../bodies/reference-a9.md"}
+  ],
+  "cases": [
+    {
+      "id": "relationship-lookup",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/reference_answer.py",
+      "expected_trigger": null,
+      "steps": [
+        {
+          "id": "question",
+          "prompt": "What is my grandfather's codename? Reply with just the codename, or UNKNOWN if you do not know."
+        }
+      ]
+    }
+  ]
+}

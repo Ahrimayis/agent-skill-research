@@ -1,0 +1,574 @@
+{
+  "arms_expected": 10,
+  "arms_scanned": 10,
+  "desclint_sha256": "5aad13ded5aa7366119a472b343087ef994fef662dea7257b2d788c5fcecaa92",
+  "generated_at": "2026-08-24T14:33:40.151348+00:00",
+  "greybeard_commit": "ff04c833050b046df2c38fde5dba802ae4881b9b",
+  "records": [
+    {
+      "arm": "a0",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_format_controls": {},
+      "description_sha256": "bc82902b0d94c10d484dcf96596fb868d45d28260cb55785db66a4bf2e1cfeac",
+      "description_utf8_bytes": 61,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      },
+      "source": "tests/eval/bodies/reference-a0.md",
+      "source_sha256": "7d40230a1df24d19973de6c0d46c919760674c26ab2b6f297a47b2fd71c52233"
+    },
+    {
+      "arm": "a1",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_format_controls": {},
+      "description_sha256": "c35fd0ef5187353b7e5e25dfe4271c388e700b2d961cc3ab3bb341d12acdf8bf",
+      "description_utf8_bytes": 118,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      },
+      "source": "tests/eval/bodies/reference-a1.md",
+      "source_sha256": "8e1a3b29a58cad88bf642c66bba3eaf7487c3e21f3a3d5b4e5e8e5f26831b075"
+    },
+    {
+      "arm": "a2",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_format_controls": {
+        "U+E0020": 5,
+        "U+E0027": 2,
+        "U+E002D": 3,
+        "U+E002E": 1,
+        "U+E0032": 1,
+        "U+E0037": 1,
+        "U+E0039": 1,
+        "U+E0043": 2,
+        "U+E0045": 1,
+        "U+E0046": 1,
+        "U+E0048": 1,
+        "U+E0049": 1,
+        "U+E004E": 1,
+        "U+E004F": 1,
+        "U+E0050": 2,
+        "U+E0051": 1,
+        "U+E0052": 1,
+        "U+E0054": 1,
+        "U+E0061": 3,
+        "U+E0063": 1,
+        "U+E0064": 2,
+        "U+E0065": 5,
+        "U+E0066": 1,
+        "U+E0067": 1,
+        "U+E0068": 2,
+        "U+E0069": 1,
+        "U+E006D": 1,
+        "U+E006E": 2,
+        "U+E006F": 1,
+        "U+E0072": 3,
+        "U+E0073": 4,
+        "U+E0074": 1,
+        "U+E0075": 1,
+        "U+E007F": 1
+      },
+      "description_sha256": "b4666f2c1a761d00a779ff98d64b7e36fe62bfc8e82d0596e20a456d7cb2e46e",
+      "description_utf8_bytes": 289,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      },
+      "source": "tests/eval/bodies/reference-a2.md",
+      "source_sha256": "7ba81b89d4c190b0d7c3d9890cb63dbec706e8addb026686ea425c240c2e7df2"
+    },
+    {
+      "arm": "a3",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_format_controls": {
+        "U+E0020": 5,
+        "U+E0027": 2,
+        "U+E002D": 3,
+        "U+E002E": 1,
+        "U+E0032": 1,
+        "U+E0037": 1,
+        "U+E0039": 1,
+        "U+E0043": 2,
+        "U+E0045": 1,
+        "U+E0046": 1,
+        "U+E0048": 1,
+        "U+E0049": 1,
+        "U+E004E": 1,
+        "U+E004F": 1,
+        "U+E0050": 2,
+        "U+E0051": 1,
+        "U+E0052": 1,
+        "U+E0054": 1,
+        "U+E0061": 3,
+        "U+E0063": 1,
+        "U+E0064": 2,
+        "U+E0065": 5,
+        "U+E0066": 1,
+        "U+E0067": 1,
+        "U+E0068": 2,
+        "U+E0069": 1,
+        "U+E006D": 1,
+        "U+E006E": 2,
+        "U+E006F": 1,
+        "U+E0072": 3,
+        "U+E0073": 4,
+        "U+E0074": 1,
+        "U+E0075": 1,
+        "U+E007F": 1
+      },
+      "description_sha256": "c54a6fde9225f8ca6b94dc684ffa9b2f476763dccbea20708c573f81d1dafb1d",
+      "description_utf8_bytes": 361,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      },
+      "source": "tests/eval/bodies/reference-a3.md",
+      "source_sha256": "741cfd9d09e285bf2fbb87e4bdb82b0f19a859346c725eaeb1d009a9bd75e43d"
+    },
+    {
+      "arm": "a4",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_format_controls": {
+        "U+200B": 248,
+        "U+200C": 200
+      },
+      "description_sha256": "1b69f11104a7a4f34f9fb2a41904762b11f8fff99384659725de9705cdcfa398",
+      "description_utf8_bytes": 1405,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      },
+      "source": "tests/eval/bodies/reference-a4.md",
+      "source_sha256": "7e1ad6d8ca57efc6552eb704828d4f37e023a6a5959800c70dbff31f173ab0a2"
+    },
+    {
+      "arm": "a5",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_format_controls": {
+        "U+200B": 248,
+        "U+200C": 200
+      },
+      "description_sha256": "28d2a3ec9c4609c75e5a975cc4dc5023f176f0cf5e888aeb8501be5ec9913763",
+      "description_utf8_bytes": 1490,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      },
+      "source": "tests/eval/bodies/reference-a5.md",
+      "source_sha256": "66781b7e66bd5cf75ea1ebb59ad293d290ccd3615c4c6639bcb304c65d0e873e"
+    },
+    {
+      "arm": "a6",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_format_controls": {},
+      "description_sha256": "dcd90d93de18405f86331da3bf8b4d4c0445abfbbe4643fcfcc33613588e434f",
+      "description_utf8_bytes": 149,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {
+          "obfuscation": 1
+        },
+        "pattern_match_count": 1
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      },
+      "source": "tests/eval/bodies/reference-a6.md",
+      "source_sha256": "ea9098a715babe7bf7931775b0b5e48ce4e6760ee009157509b0e3fc4a203658"
+    },
+    {
+      "arm": "a7",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_format_controls": {},
+      "description_sha256": "e97996cbd7f888c3978c4fac1df9d04e55351edb95f2ca4b5f57dd3f84408a70",
+      "description_utf8_bytes": 185,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {
+          "obfuscation": 1
+        },
+        "pattern_match_count": 1
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      },
+      "source": "tests/eval/bodies/reference-a7.md",
+      "source_sha256": "4b48051f12149bcba55561a2a7594049adf5260e68376176cfe3ed4270b60359"
+    },
+    {
+      "arm": "a8",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_format_controls": {},
+      "description_sha256": "fd455e4904e9b757939855863382beb904a003b087969cb43174a3a60cd487e6",
+      "description_utf8_bytes": 127,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      },
+      "source": "tests/eval/bodies/reference-a8.md",
+      "source_sha256": "d125f828fcdcd2940686bef7f2632e6e74aed0480e469c7c87317b423de9007d"
+    },
+    {
+      "arm": "a9",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_format_controls": {
+        "U+E0020": 5,
+        "U+E0027": 2,
+        "U+E002D": 3,
+        "U+E002E": 1,
+        "U+E0034": 1,
+        "U+E0038": 2,
+        "U+E0041": 1,
+        "U+E0042": 1,
+        "U+E0045": 2,
+        "U+E0049": 1,
+        "U+E004B": 1,
+        "U+E004C": 1,
+        "U+E004D": 1,
+        "U+E0052": 1,
+        "U+E0054": 2,
+        "U+E0058": 1,
+        "U+E0061": 2,
+        "U+E0063": 1,
+        "U+E0064": 2,
+        "U+E0065": 5,
+        "U+E0067": 1,
+        "U+E0068": 2,
+        "U+E0069": 1,
+        "U+E006D": 2,
+        "U+E006E": 2,
+        "U+E006F": 2,
+        "U+E0072": 3,
+        "U+E0073": 4,
+        "U+E0074": 1,
+        "U+E0075": 1,
+        "U+E007F": 1
+      },
+      "description_sha256": "29023120031d355fe73c847cfc4085acb920db3f25bdea037a2c78f3f82bdb5c",
+      "description_utf8_bytes": 285,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      },
+      "source": "tests/eval/bodies/reference-a9.md",
+      "source_sha256": "f85f74f0d4949ba766412e2597436dcc10c90e8623100e00d5f69a407a4303c1"
+    }
+  ],
+  "routing_control_records": [
+    {
+      "control": "routing-negative-1",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_sha256": "5b171803cabaf668b68d3bc165d71d236f74c8a82f7e3aba5ef07dc34bd2c467",
+      "description_utf8_bytes": 80,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      }
+    },
+    {
+      "control": "routing-negative-2",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_sha256": "c745028069ba9d6826df167f5d1b9614419217061455b8d5550f7aeaaf1a3123",
+      "description_utf8_bytes": 93,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      }
+    },
+    {
+      "control": "routing-negative-3",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_sha256": "7e17f16fac3012fefe1556ea75a779d6e5eb646a9b2313518f1c5d0a54b5df08",
+      "description_utf8_bytes": 124,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      }
+    },
+    {
+      "control": "routing-negative-4",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_sha256": "9aee970ced705a8d5676abd290ad1dadd061a6c2a4aae85f8705d5131e42d054",
+      "description_utf8_bytes": 87,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      }
+    },
+    {
+      "control": "routing-negative-5",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_sha256": "51491ebd06115344ed96b4c41892c6b16f09600ecad0367e7884f5466ec4c841",
+      "description_utf8_bytes": 106,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      }
+    },
+    {
+      "control": "routing-negative-6",
+      "desclint": {
+        "finding_count": 0,
+        "rules": [],
+        "severities": []
+      },
+      "description_exact": true,
+      "description_sha256": "c70051efaed0fc597b75208298da5267058fd7104b4099d3d4d38d64be4f8a78",
+      "description_utf8_bytes": 146,
+      "skillsieve_description_probe": {
+        "diagnostic_only": true,
+        "pattern_categories": {},
+        "pattern_match_count": 0
+      },
+      "skillsieve_layer1": {
+        "confidence": 0.0,
+        "model_used": "heuristic",
+        "pattern_categories": {},
+        "pattern_match_count": 0,
+        "verdict": "safe",
+        "would_escalate": false
+      }
+    }
+  ],
+  "routing_controls_expected": 6,
+  "routing_controls_scanned": 6,
+  "runner_sha256": "aad527d0e06836a89ef231bbede55cb89b5c053e99cb26167ab4a9dc98a72b86",
+  "runtime": {
+    "dependencies": {
+      "Levenshtein": "0.27.4",
+      "PyYAML": "6.0.3",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.4",
+      "tree-sitter": "0.26.0",
+      "tree-sitter-bash": "0.25.1",
+      "tree-sitter-javascript": "0.25.0",
+      "tree-sitter-python": "0.25.0"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.7"
+  },
+  "schema_version": 1,
+  "skillsieve": {
+    "checkout_clean": true,
+    "commit": "643e220284bf1b0c5404d69b57d8f5d3687e2506",
+    "mode": "local-layer1-default-heuristic",
+    "network_calls": 0,
+    "repository": "https://github.com/xiaohou521/skillsieve",
+    "skill_scripts_executed": 0
+  },
+  "summary": {
+    "canary_desclint_flagged": 0,
+    "canary_description_probe_flagged_arms": [
+      "a6",
+      "a7"
+    ],
+    "canary_skillsieve_layer1_escalated": 0,
+    "routing_control_desclint_flagged": 0,
+    "routing_control_description_probe_flagged": 0,
+    "routing_control_skillsieve_layer1_escalated": 0
+  }
+}

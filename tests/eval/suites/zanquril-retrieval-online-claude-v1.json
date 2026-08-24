@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "project-practice-retrieval-online-claude-v1",
+  "kind": "fast",
+  "network_access": true,
+  "repetitions": 3,
+  "arms": [
+    {"id": "bare", "delivery_mode": "none", "delivery_target": "none"},
+    {"id": "opaque-doc", "delivery_mode": "forced", "delivery_target": "project-practice", "body": "../bodies/zanquril-description-opaque.md"},
+    {"id": "opaque-no-doc", "delivery_mode": "forced", "delivery_target": "project-practice", "body": "../bodies/zanquril-description-opaque.md"},
+    {"id": "expanded-no-doc", "delivery_mode": "forced", "delivery_target": "project-practice", "body": "../bodies/zanquril-description-expanded.md"},
+    {"id": "yagni-no-doc", "delivery_mode": "forced", "delivery_target": "project-practice", "body": "../bodies/zanquril-description-yagni.md"},
+    {"id": "plain-language", "delivery_mode": "forced", "delivery_target": "project-practice", "body": "../bodies/zanquril-description-plain.md"}
+  ],
+  "cases": [
+    {
+      "id": "selftest-present",
+      "fixture": "../fixtures/practice-selftest-present",
+      "oracle": "../oracles/zanquril_selftest.py",
+      "arms": ["opaque-doc"],
+      "expected_trigger": null,
+      "steps": [{"id": "task", "prompt": "Add a quick self-test for reverse_words. Keep the existing behavior and do not add external dependencies."}]
+    },
+    {
+      "id": "selftest-absent",
+      "fixture": "../fixtures/practice-selftest-absent",
+      "oracle": "../oracles/zanquril_selftest.py",
+      "arms": ["bare", "opaque-no-doc", "expanded-no-doc", "yagni-no-doc", "plain-language"],
+      "expected_trigger": null,
+      "steps": [{"id": "task", "prompt": "Add a quick self-test for reverse_words. Keep the existing behavior and do not add external dependencies."}]
+    },
+    {
+      "id": "retry-present",
+      "fixture": "../fixtures/practice-retry-present",
+      "oracle": "../oracles/zanquril_retry.py",
+      "arms": ["opaque-doc"],
+      "expected_trigger": null,
+      "steps": [{"id": "task", "prompt": "Cap every value returned by retry_delays at MAX_DELAY_SECONDS and add one quick runnable self-test. Preserve the public signature and keep the project dependency-free."}]
+    },
+    {
+      "id": "retry-absent",
+      "fixture": "../fixtures/practice-retry-absent",
+      "oracle": "../oracles/zanquril_retry.py",
+      "arms": ["bare", "opaque-no-doc", "expanded-no-doc", "yagni-no-doc", "plain-language"],
+      "expected_trigger": null,
+      "steps": [{"id": "task", "prompt": "Cap every value returned by retry_delays at MAX_DELAY_SECONDS and add one quick runnable self-test. Preserve the public signature and keep the project dependency-free."}]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "id": "project-practice-routing-natural-v1",
+  "kind": "fast",
+  "network_access": false,
+  "repetitions": 3,
+  "arms": [
+    {"id": "opaque", "delivery_mode": "natural", "delivery_target": "project-practice", "body": "../bodies/zanquril-routing-opaque.md"},
+    {"id": "familiar", "delivery_mode": "natural", "delivery_target": "project-practice", "body": "../bodies/zanquril-routing-yagni.md"},
+    {"id": "expanded", "delivery_mode": "natural", "delivery_target": "project-practice", "body": "../bodies/zanquril-routing-expanded.md"},
+    {"id": "generic", "delivery_mode": "natural", "delivery_target": "project-practice", "body": "../bodies/zanquril-routing-generic.md"}
+  ],
+  "cases": [
+    {
+      "id": "route-cli-version-drift",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": true,
+      "steps": [{"id": "task", "prompt": "The documented birchctl command started failing after an upgrade. Inspect the installed version and fix the project command."}]
+    },
+    {
+      "id": "route-database-migration",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": true,
+      "steps": [{"id": "task", "prompt": "Review this database migration and execute it only if recovery and application compatibility are proven."}]
+    },
+    {
+      "id": "route-sdk-current-api",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": true,
+      "steps": [{"id": "task", "prompt": "Update the Python client for the SDK version installed here and check the matching official documentation before changing it."}]
+    },
+    {
+      "id": "route-runtime-contradiction",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": true,
+      "steps": [{"id": "task", "prompt": "Config says port 8443 but the running service reports 9443. Diagnose the discrepancy."}]
+    },
+    {
+      "id": "route-current-release-freshness",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": true,
+      "steps": [{"id": "task", "prompt": "We're on the latest stable Debian. Check whether that is still true today against official release information before updating the base image."}]
+    },
+    {
+      "id": "route-repository-debug",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": true,
+      "steps": [{"id": "task", "prompt": "Inspect this repository and find why its existing unit test fails. Do not guess the local conventions."}]
+    },
+    {
+      "id": "route-data-schema",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": true,
+      "steps": [{"id": "task", "prompt": "The pipeline output schema changed. Reconcile the manifest, implementation, and observed output before fixing it."}]
+    },
+    {
+      "id": "route-deployment-state",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": true,
+      "steps": [{"id": "task", "prompt": "Deploy the service after verifying the target environment, current configuration, and usable rollback."}]
+    },
+    {
+      "id": "route-greeting",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": false,
+      "steps": [{"id": "task", "prompt": "Morning mate."}]
+    },
+    {
+      "id": "route-copy-edit",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": false,
+      "steps": [{"id": "task", "prompt": "Rewrite this sentence to sound warmer: The meeting has been cancelled."}]
+    },
+    {
+      "id": "route-arithmetic",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": false,
+      "steps": [{"id": "task", "prompt": "What is 37 times 14?"}]
+    },
+    {
+      "id": "route-translation",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": false,
+      "steps": [{"id": "task", "prompt": "Translate `see you tomorrow` into French."}]
+    },
+    {
+      "id": "route-creative-writing",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": false,
+      "steps": [{"id": "task", "prompt": "Write a short haiku about winter rain."}]
+    },
+    {
+      "id": "route-supplied-summary",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": false,
+      "steps": [{"id": "task", "prompt": "Summarise this sentence in five words: The old lighthouse remained visible throughout the storm."}]
+    },
+    {
+      "id": "route-alphabetise",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": false,
+      "steps": [{"id": "task", "prompt": "Alphabetise these words: pear, apple, plum, banana."}]
+    },
+    {
+      "id": "route-literary-concept",
+      "fixture": "../fixtures/smoke",
+      "oracle": "../oracles/smoke.py",
+      "expected_trigger": false,
+      "steps": [{"id": "task", "prompt": "In one sentence, explain the difference between a simile and a metaphor."}]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Never stage provider homes, credentials, or full runtime traces here.
+raw-provider*/
+cell-homes*/
+*.credentials.json
+auth.json
+.env
